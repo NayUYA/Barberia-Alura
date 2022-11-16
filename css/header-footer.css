@@ -1,0 +1,45 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* style header */
+header{
+    background-color: #BBBBBB !important;
+    padding: 2.5rem 2.5rem;
+    display: flex;
+} /* color */
+
+.header-logo{
+    height: 16rem;
+    flex: 1;
+} /* posición div logo */
+
+.header-text{
+    align-items:center;
+    display: flex;
+    justify-content: flex-end;
+    height: 16rem;
+    flex: 1;
+} /* posición div texto nav */
+
+.img-logo{
+    padding-left: 5rem;
+} /* posición img-logo */
+
+.text-nav{
+    padding-right: 5rem;
+} /* posición texto nav */
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+    text-align:right;
+    text-transform: uppercase;
+    font-weight:600;
+} /* style texto nav */
+
+nav div a:hover{
+    color: #c78c19 !important;
+    text-decoration: underline !important;
+} /* animación texto nav */
