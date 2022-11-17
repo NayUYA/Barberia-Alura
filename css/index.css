@@ -67,6 +67,7 @@ li{
 }
 
 .lista-diferenciales{
+    width: 40%;
     display: inline-block;
     vertical-align: top;
 }
@@ -82,7 +83,7 @@ li{
 .imagen-diferenciles{
     width: 30%;
     transition: 400ms;
-    box-shadow: 10px 10px 30px 15px #000000;
+    box-shadow: 10px 10px 30px 15px #000000; /* SOMBRA */
 }
 
 .imagen-diferenciles:hover{

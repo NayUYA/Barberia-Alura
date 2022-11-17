@@ -43,3 +43,10 @@ nav div a:hover{
     color: #c78c19 !important;
     text-decoration: underline !important;
 } /* animación texto nav */
+
+
+footer{
+    text-align: center;
+    background: url(/imagenes/bg.jpg);
+    padding:40px;
+}
