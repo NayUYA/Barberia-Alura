@@ -1,0 +1,74 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.card-deck{
+    margin: 60px 80px 60px 80px;
+    text-align: center;
+}
+
+.card{
+    border: 2px solid black;
+    width: 30rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card:hover{
+    border-color: #c78c19;
+}
+
+.card:active{
+    border-color: navy;
+}
+
+.card-title{
+    padding-top: 1.5rem;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0rem;
+}
+
+.card-title:hover{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+    margin-bottom: 0rem;
+}
+
+.producto-precio{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div .card-body{
+    padding: 0%;
+}
+
+.card-img-top{
+    height: 250px;
+    width: 250px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .card-deck{
+        margin: 30px 0px 0px 0px;
+    }
+
+    .card-img-top{
+        height: 180px;
+        width: 180px;
+        margin-left: 0px;
+    }
+    .card{
+        border: 2px solid black;
+        width: 20rem;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
